@@ -1,7 +1,7 @@
 /* eslint-disable */
 const path = require('path');
 
-const ESLintPlugin = require('eslint-webpack-plugin');
+// const ESLintPlugin = require('eslint-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = ({ minify, WEBPACK_BUILD }) => ({
@@ -60,10 +60,10 @@ module.exports = ({ minify, WEBPACK_BUILD }) => ({
     ],
   },
   plugins: [
-    new ESLintPlugin({
-      extensions: ['js'],
-      failOnError: WEBPACK_BUILD,
-    }),
+    // new ESLintPlugin({
+    //   extensions: ['js'],
+    //   failOnError: WEBPACK_BUILD,
+    // }),
     new MiniCssExtractPlugin({
       filename: `tui-image-editor${minify ? '.min' : ''}.css`,
     }),
