@@ -1,6 +1,6 @@
 {
   "name": "@toast-ui/react-image-editor",
-  "version": "3.15.3",
+  "version": "3.16.0",
   "description": "TOAST UI Image-Editor for React",
   "main": "dist/toastui-react-image-editor.js",
   "files": [
@@ -8,7 +8,7 @@
     "src"
   ],
   "scripts": {
-    "build": "webpack",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && webpack",
     "storybook": "start-storybook -s ./node_modules/tui-image-editor/dist/svg,.storybook -p 6006",
     "build-storybook": "build-storybook"
   },

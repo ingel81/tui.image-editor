@@ -2,6 +2,16 @@
 
 > Full featured image editor using HTML5 Canvas. It's easy to use and provides powerful filters.
 
+## 🔀 About This Fork
+
+This is a fork of the original [TOAST UI Image Editor](https://github.com/nhn/tui.image-editor) by NHN. This fork was created to:
+
+- **Update Fabric.js from v4.2.0 to v5.2.4** - The original repository has not been actively maintained, and we needed the latest Fabric.js features and bug fixes
+- **Maintain compatibility** - Keep the image editor working with modern dependencies and environments
+- **Published as `@ingel81/tui-image-editor` on NPM**
+
+All credit for the original work goes to the NHN team. This fork aims to keep this excellent image editor alive and usable with current web technologies.
+
 [![github version](https://img.shields.io/github/release/nhn/tui.image-editor.svg)](https://github.com/nhn/tui.image-editor/releases/latest)
 [![npm version](https://img.shields.io/npm/v/tui-image-editor.svg)](https://www.npmjs.com/package/tui-image-editor)
 [![license](https://img.shields.io/github/license/nhn/tui.image-editor.svg)](https://github.com/nhn/tui.image-editor/blob/master/LICENSE)
